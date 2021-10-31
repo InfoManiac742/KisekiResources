@@ -5,7 +5,7 @@
       <ID>5</ID>
       <Description>"Party"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" RealAddress="06BC77B4"/>
+      <LastState Value="" RealAddress="07CA72E4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <GroupHeader>1</GroupHeader>
       <Address>ed8_2_PC_US.exe+800338</Address>
@@ -40,7 +40,7 @@
 22:Altina
 23:Crow
 </DropDownList>
-          <LastState Value="0" RealAddress="06BC77B4"/>
+          <LastState Value="0" RealAddress="07CA72E4"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>+0</Address>
@@ -49,7 +49,7 @@
           <ID>6</ID>
           <Description>"Char 2"</Description>
           <DropDownListLink>char 1</DropDownListLink>
-          <LastState Value="1" RealAddress="06BC77B6"/>
+          <LastState Value="1" RealAddress="07CA72E6"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>+2</Address>
@@ -58,7 +58,7 @@
           <ID>7</ID>
           <Description>"Char 3"</Description>
           <DropDownListLink>char 1</DropDownListLink>
-          <LastState Value="2" RealAddress="06BC77B8"/>
+          <LastState Value="2" RealAddress="07CA72E8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>+4</Address>
@@ -67,7 +67,7 @@
           <ID>8</ID>
           <Description>"Char 4"</Description>
           <DropDownListLink>char 1</DropDownListLink>
-          <LastState Value="3" RealAddress="06BC77BA"/>
+          <LastState Value="3" RealAddress="07CA72EA"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>+6</Address>
@@ -76,7 +76,7 @@
           <ID>9</ID>
           <Description>"Char 5"</Description>
           <DropDownListLink>char 1</DropDownListLink>
-          <LastState Value="4" RealAddress="06BC77BC"/>
+          <LastState Value="4" RealAddress="07CA72EC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>+8</Address>
@@ -85,7 +85,7 @@
           <ID>10</ID>
           <Description>"Char 6"</Description>
           <DropDownListLink>char 1</DropDownListLink>
-          <LastState Value="5" RealAddress="06BC77BE"/>
+          <LastState Value="5" RealAddress="07CA72EE"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>+A</Address>
@@ -94,7 +94,7 @@
           <ID>11</ID>
           <Description>"Char 7"</Description>
           <DropDownListLink>char 1</DropDownListLink>
-          <LastState Value="6" RealAddress="06BC77C0"/>
+          <LastState Value="6" RealAddress="07CA72F0"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>+C</Address>
@@ -105,7 +105,7 @@
       <ID>20</ID>
       <Description>"Player Model"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" Activated="1" RealAddress="0D913750"/>
+      <LastState Value="" RealAddress="0B3C0A00"/>
       <ShowAsSigned>0</ShowAsSigned>
       <GroupHeader>1</GroupHeader>
       <Address>ed8_2_PC_US.exe+67E760</Address>
@@ -118,7 +118,7 @@
           <ID>25</ID>
           <Description>"Coordinates"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" RealAddress="0D91382C"/>
+          <LastState Value="" RealAddress="0B3C0ADC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <GroupHeader>1</GroupHeader>
           <Address>+DC</Address>
@@ -126,7 +126,7 @@
             <CheatEntry>
               <ID>17</ID>
               <Description>"X"</Description>
-              <LastState Value="7.035283566" RealAddress="0D91382C"/>
+              <LastState Value="6.218138218" RealAddress="0B3C0ADC"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+0</Address>
@@ -134,7 +134,7 @@
             <CheatEntry>
               <ID>18</ID>
               <Description>"Y"</Description>
-              <LastState Value="-2.5" RealAddress="0D913830"/>
+              <LastState Value="2.5" RealAddress="0B3C0AE0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+4</Address>
@@ -142,7 +142,7 @@
             <CheatEntry>
               <ID>19</ID>
               <Description>"Z"</Description>
-              <LastState Value="-29.2497406" RealAddress="0D913834"/>
+              <LastState Value="-1.380365252" RealAddress="0B3C0AE4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+8</Address>
@@ -153,7 +153,7 @@
           <ID>30</ID>
           <Description>"Scale"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" RealAddress="0D91384C"/>
+          <LastState Value="" RealAddress="0B3C0AFC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <GroupHeader>1</GroupHeader>
           <Address>+FC</Address>
@@ -161,7 +161,7 @@
             <CheatEntry>
               <ID>31</ID>
               <Description>"X"</Description>
-              <LastState Value="1" RealAddress="0D91384C"/>
+              <LastState Value="1" RealAddress="0B3C0AFC"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+0</Address>
@@ -169,7 +169,7 @@
             <CheatEntry>
               <ID>32</ID>
               <Description>"Y"</Description>
-              <LastState Value="1" RealAddress="0D913870"/>
+              <LastState Value="1" RealAddress="0B3C0B20"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+24</Address>
@@ -177,7 +177,7 @@
             <CheatEntry>
               <ID>33</ID>
               <Description>"Z"</Description>
-              <LastState Value="1" RealAddress="0D913874"/>
+              <LastState Value="1" RealAddress="0B3C0B24"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+28</Address>
@@ -188,7 +188,7 @@
           <ID>26</ID>
           <Description>"Rotation"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" RealAddress="0D91447C"/>
+          <LastState Value="" RealAddress="0B3C172C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <GroupHeader>1</GroupHeader>
           <Address>+D2C</Address>
@@ -196,7 +196,7 @@
             <CheatEntry>
               <ID>23</ID>
               <Description>"X"</Description>
-              <LastState Value="0" RealAddress="0D91447C"/>
+              <LastState Value="0" RealAddress="0B3C172C"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+0</Address>
@@ -204,7 +204,7 @@
             <CheatEntry>
               <ID>28</ID>
               <Description>"Y"</Description>
-              <LastState Value="2.964276791" RealAddress="0D914480"/>
+              <LastState Value="0.01396167278" RealAddress="0B3C1730"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+4</Address>
@@ -212,12 +212,90 @@
             <CheatEntry>
               <ID>29</ID>
               <Description>"Z"</Description>
-              <LastState Value="0" RealAddress="0D914484"/>
+              <LastState Value="0" RealAddress="0B3C1734"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+8</Address>
             </CheatEntry>
           </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"Camera"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="31252848"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <GroupHeader>1</GroupHeader>
+      <Address>ed8_2_PC_US.exe+67E760</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>43</ID>
+          <Description>"Coordinates"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="3125293C"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <GroupHeader>1</GroupHeader>
+          <Address>+F4</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>41</ID>
+              <Description>"X"</Description>
+              <LastState Value="6.234365463" RealAddress="3125293C"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>39</ID>
+              <Description>"Y"</Description>
+              <LastState Value="3.560541391" RealAddress="31252940"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>42</ID>
+              <Description>"Z"</Description>
+              <LastState Value="-2.386219978" RealAddress="31252944"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+8</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>44</ID>
+          <Description>"Freeze Camera Y-Position"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+
+aobscanmodule(CODE_D9381,ed8_2_PC_US.exe,F3 0F 11 96 F0 00 00 00 F3 0F 11 9E)
+CODE_D9381:
+  nop 8
+registersymbol(CODE_D9381)
+
+aobscanmodule(CODE_158DD4,ed8_2_PC_US.exe,89 86 F8 00 00 00 8B 86)
+CODE_158DD4:
+  nop 6
+registersymbol(CODE_158DD4)
+
+[DISABLE]
+
+CODE_D9381:
+  db F3 0F 11 96 F0 00 00 00
+unregistersymbol(CODE_D9381)
+
+CODE_158DD4:
+  db 89 86 F8 00 00 00
+unregistersymbol(CODE_158DD4)
+
+</AssemblerScript>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
