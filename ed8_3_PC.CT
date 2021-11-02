@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Speaker 1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>20</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>ed8_3_PC.exe+18CB1C8</Address>
+      <Offsets>
+        <Offset>7EC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4050</ID>
+      <Description>"Camera"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <GroupHeader>1</GroupHeader>
+      <Address>ed8_3_PC.exe+16C3308</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>4049</ID>
+          <Description>"No description"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>+7AC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4068</ID>
+          <Description>"Coordinates"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="0000086C"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <GroupHeader>1</GroupHeader>
+          <Address>+86C</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>4066</ID>
+              <Description>"X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4069</ID>
+              <Description>"Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4070</ID>
+              <Description>"Z"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+8</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4038</ID>
+      <Description>"Player"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <GroupHeader>1</GroupHeader>
+      <Address>ed8_3_PC.exe+16C3308</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>39F48</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>4042</ID>
+          <Description>"Coordinates"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000364"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <GroupHeader>1</GroupHeader>
+          <Address>+364</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>4041</ID>
+              <Description>"X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4040</ID>
+              <Description>"Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4039</ID>
+              <Description>"Z"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+8</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4043</ID>
+          <Description>"Scaling"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000384"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <GroupHeader>1</GroupHeader>
+          <Address>+384</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>4044</ID>
+              <Description>"X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4045</ID>
+              <Description>"Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4046</ID>
+              <Description>"Z"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+8</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4071</ID>
+      <Description>"Free Cam"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+aobscanmodule(INJECT_215A4C,ed8_3_PC.exe,89 81 5C 08 00 00 8B)
+INJECT_215A4C:
+  nop 6
+registersymbol(INJECT_215A4C)
+
+aobscanmodule(INJECT_215A58,ed8_3_PC.exe,89 81 60 08 00 00 8B)
+INJECT_215A58:
+  nop 6
+registersymbol(INJECT_215A58)
+
+aobscanmodule(INJECT_215A64,ed8_3_PC.exe,89 81 64 08 00 00)
+INJECT_215A64:
+  nop 6
+registersymbol(INJECT_215A64)
+
+"ed8_3_PC.exe"+217829:
+  nop 6
+
+"ed8_3_PC.exe"+217835:
+  nop 6
+
+"ed8_3_PC.exe"+217841:
+  nop 6
+
+[DISABLE]
+INJECT_215A4C:
+  db 89 81 5C 08 00 00
+unregistersymbol(INJECT_215A4C)
+
+INJECT_215A58:
+  db 89 81 60 08 00 00
+unregistersymbol(INJECT_215A58)
+
+INJECT_215A64:
+  db 89 81 64 08 00 00
+unregistersymbol(INJECT_215A64)
+
+"ed8_3_PC.exe"+217829:
+  db 89 83 5C 08 00 00
+
+"ed8_3_PC.exe"+217835:
+  db 89 83 60 08 00 00
+
+"ed8_3_PC.exe"+217841:
+  db 89 83 64 08 00 00
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
