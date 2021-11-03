@@ -69,6 +69,59 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
+      <ID>4071</ID>
+      <Description>"Free Cam"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+aobscanmodule(INJECT_215A4C,ed8_3_PC.exe,89 81 5C 08 00 00 8B)
+INJECT_215A4C:
+  nop 6
+registersymbol(INJECT_215A4C)
+
+aobscanmodule(INJECT_215A58,ed8_3_PC.exe,89 81 60 08 00 00 8B)
+INJECT_215A58:
+  nop 6
+registersymbol(INJECT_215A58)
+
+aobscanmodule(INJECT_215A64,ed8_3_PC.exe,89 81 64 08 00 00)
+INJECT_215A64:
+  nop 6
+registersymbol(INJECT_215A64)
+
+"ed8_3_PC.exe"+217829:
+  nop 6
+
+"ed8_3_PC.exe"+217835:
+  nop 6
+
+"ed8_3_PC.exe"+217841:
+  nop 6
+
+[DISABLE]
+INJECT_215A4C:
+  db 89 81 5C 08 00 00
+unregistersymbol(INJECT_215A4C)
+
+INJECT_215A58:
+  db 89 81 60 08 00 00
+unregistersymbol(INJECT_215A58)
+
+INJECT_215A64:
+  db 89 81 64 08 00 00
+unregistersymbol(INJECT_215A64)
+
+"ed8_3_PC.exe"+217829:
+  db 89 83 5C 08 00 00
+
+"ed8_3_PC.exe"+217835:
+  db 89 83 60 08 00 00
+
+"ed8_3_PC.exe"+217841:
+  db 89 83 64 08 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
       <ID>4038</ID>
       <Description>"Player"</Description>
       <Options moHideChildren="1"/>
@@ -148,57 +201,83 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>4071</ID>
-      <Description>"Free Cam"</Description>
-      <LastState/>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>[ENABLE]
-aobscanmodule(INJECT_215A4C,ed8_3_PC.exe,89 81 5C 08 00 00 8B)
-INJECT_215A4C:
-  nop 6
-registersymbol(INJECT_215A4C)
-
-aobscanmodule(INJECT_215A58,ed8_3_PC.exe,89 81 60 08 00 00 8B)
-INJECT_215A58:
-  nop 6
-registersymbol(INJECT_215A58)
-
-aobscanmodule(INJECT_215A64,ed8_3_PC.exe,89 81 64 08 00 00)
-INJECT_215A64:
-  nop 6
-registersymbol(INJECT_215A64)
-
-"ed8_3_PC.exe"+217829:
-  nop 6
-
-"ed8_3_PC.exe"+217835:
-  nop 6
-
-"ed8_3_PC.exe"+217841:
-  nop 6
-
-[DISABLE]
-INJECT_215A4C:
-  db 89 81 5C 08 00 00
-unregistersymbol(INJECT_215A4C)
-
-INJECT_215A58:
-  db 89 81 60 08 00 00
-unregistersymbol(INJECT_215A58)
-
-INJECT_215A64:
-  db 89 81 64 08 00 00
-unregistersymbol(INJECT_215A64)
-
-"ed8_3_PC.exe"+217829:
-  db 89 83 5C 08 00 00
-
-"ed8_3_PC.exe"+217835:
-  db 89 83 60 08 00 00
-
-"ed8_3_PC.exe"+217841:
-  db 89 83 64 08 00 00
-</AssemblerScript>
+      <ID>4081</ID>
+      <Description>"Party"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <GroupHeader>1</GroupHeader>
+      <Address>ed8_3_PC.exe+1A0F848</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>4075</ID>
+          <Description>"Leader"</Description>
+          <DropDownList DisplayValueAsItem="1">0:Rean
+9:Millium
+10:Juna
+11:Kurt
+12:Altina
+13:Musse
+14:Ash
+23:Claire
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>ed8_3_PC.exe+16C3308</Address>
+          <Offsets>
+            <Offset>5A6A0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4086</ID>
+          <Description>"Party Size"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>ed8_3_PC.exe+1A0F840</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4080</ID>
+          <Description>"Char 1"</Description>
+          <DropDownListLink>leader</DropDownListLink>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>+0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4082</ID>
+          <Description>"Char 2"</Description>
+          <DropDownListLink>leader</DropDownListLink>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>+2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4083</ID>
+          <Description>"Char 3"</Description>
+          <DropDownListLink>leader</DropDownListLink>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>+4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4084</ID>
+          <Description>"Char 4"</Description>
+          <DropDownListLink>leader</DropDownListLink>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>+6</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4085</ID>
+          <Description>"Char 5"</Description>
+          <DropDownListLink>leader</DropDownListLink>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>+8</Address>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
