@@ -2,18 +2,134 @@
 <CheatTable CheatEngineTableVersion="34">
   <CheatEntries>
     <CheatEntry>
-      <ID>1</ID>
-      <Description>"Speaker 1"</Description>
+      <ID>4095</ID>
+      <Description>"Speakers"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>String</VariableType>
-      <Length>20</Length>
-      <Unicode>0</Unicode>
-      <CodePage>0</CodePage>
-      <ZeroTerminate>1</ZeroTerminate>
+      <GroupHeader>1</GroupHeader>
       <Address>ed8_3_PC.exe+18CB1C8</Address>
-      <Offsets>
-        <Offset>7EC</Offset>
-      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"Speaker 1"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>28</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>+0</Address>
+          <Offsets>
+            <Offset>+7EC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4096</ID>
+          <Description>"Speaker 2"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>14</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>+0</Address>
+          <Offsets>
+            <Offset>7EC</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4097</ID>
+          <Description>"Speaker 3"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>7</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>+0</Address>
+          <Offsets>
+            <Offset>7EC</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4098</ID>
+          <Description>"Speaker 4"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>5</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>+0</Address>
+          <Offsets>
+            <Offset>7EC</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4099</ID>
+          <Description>"Speaker 5"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>1</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>+0</Address>
+          <Offsets>
+            <Offset>7EC</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4107</ID>
+          <Description>"Speaker 6"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>1</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>+0</Address>
+          <Offsets>
+            <Offset>7EC</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4108</ID>
+          <Description>"Speaker 7"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>1</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>+0</Address>
+          <Offsets>
+            <Offset>7EC</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>4050</ID>
@@ -28,11 +144,36 @@
       </Offsets>
       <CheatEntries>
         <CheatEntry>
-          <ID>4049</ID>
-          <Description>"No description"</Description>
+          <ID>4104</ID>
+          <Description>"Rotation"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="000007AC"/>
           <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Float</VariableType>
+          <GroupHeader>1</GroupHeader>
           <Address>+7AC</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>4049</ID>
+              <Description>"No description"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4105</ID>
+              <Description>"No description"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4106</ID>
+              <Description>"No description"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+8</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
           <ID>4068</ID>
@@ -198,6 +339,38 @@ unregistersymbol(INJECT_215A64)
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
+        <CheatEntry>
+          <ID>4087</ID>
+          <Description>"Angle"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00002000"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <GroupHeader>1</GroupHeader>
+          <Address>+2000</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>4088</ID>
+              <Description>"Pitch"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4089</ID>
+              <Description>"Yaw"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4090</ID>
+              <Description>"Roll"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+8</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
@@ -215,13 +388,23 @@ unregistersymbol(INJECT_215A64)
         <CheatEntry>
           <ID>4075</ID>
           <Description>"Leader"</Description>
-          <DropDownList DisplayValueAsItem="1">0:Rean
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Rean
+1:Alisa
+2:Elliot
+3:Laura
+4:Machias
+5:Emma
+7:Fie
 9:Millium
 10:Juna
 11:Kurt
 12:Altina
 13:Musse
 14:Ash
+17:Agate
+19:Olivier
+21:Tio
+22:Sharon
 23:Claire
 </DropDownList>
           <ShowAsSigned>0</ShowAsSigned>
@@ -276,6 +459,14 @@ unregistersymbol(INJECT_215A64)
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>+8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4109</ID>
+          <Description>"Char 6"</Description>
+          <DropDownListLink>leader</DropDownListLink>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>+A</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
