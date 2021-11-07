@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="38">
+<CheatTable CheatEngineTableVersion="34">
   <CheatEntries>
     <CheatEntry>
       <ID>4095</ID>
@@ -43,7 +43,7 @@
           <Description>"Speaker 3"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>String</VariableType>
-          <Length>7</Length>
+          <Length>8</Length>
           <Unicode>0</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
@@ -395,12 +395,13 @@ unregistersymbol(INJECT_215A64)
 12:Altina
 13:Musse
 14:Ash
+15:Sara
 17:Agate
+18:Angelica
 19:Olivier
 21:Tio
 22:Sharon
 23:Claire
-26:Patrick
 </DropDownList>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
