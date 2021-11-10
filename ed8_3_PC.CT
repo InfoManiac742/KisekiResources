@@ -595,6 +595,50 @@ unregistersymbol(INJECT_215A64)
                 <Offset>16</Offset>
               </Offsets>
             </CheatEntry>
+            <CheatEntry>
+              <ID>4150</ID>
+              <Description>"Char 13"</Description>
+              <DropDownListLink>leader</DropDownListLink>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>ed8_3_PC.exe+1A0F848</Address>
+              <Offsets>
+                <Offset>18</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4151</ID>
+              <Description>"Char 14"</Description>
+              <DropDownListLink>leader</DropDownListLink>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>ed8_3_PC.exe+1A0F848</Address>
+              <Offsets>
+                <Offset>1A</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4152</ID>
+              <Description>"Char 15"</Description>
+              <DropDownListLink>leader</DropDownListLink>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>ed8_3_PC.exe+1A0F848</Address>
+              <Offsets>
+                <Offset>1C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4153</ID>
+              <Description>"Char 16"</Description>
+              <DropDownListLink>leader</DropDownListLink>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>ed8_3_PC.exe+1A0F848</Address>
+              <Offsets>
+                <Offset>1E</Offset>
+              </Offsets>
+            </CheatEntry>
           </CheatEntries>
         </CheatEntry>
       </CheatEntries>
