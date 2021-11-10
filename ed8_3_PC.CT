@@ -639,6 +639,17 @@ unregistersymbol(INJECT_215A64)
                 <Offset>1E</Offset>
               </Offsets>
             </CheatEntry>
+            <CheatEntry>
+              <ID>4154</ID>
+              <Description>"Char 17"</Description>
+              <DropDownListLink>leader</DropDownListLink>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>ed8_3_PC.exe+1A0F848</Address>
+              <Offsets>
+                <Offset>20</Offset>
+              </Offsets>
+            </CheatEntry>
           </CheatEntries>
         </CheatEntry>
       </CheatEntries>
