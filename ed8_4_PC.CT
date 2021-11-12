@@ -40,6 +40,141 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
+      <ID>7036</ID>
+      <Description>"Player"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>7035</ID>
+          <Description>"Coordinates"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>7034</ID>
+              <Description>"X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>370</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7033</ID>
+              <Description>"Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>374</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7032</ID>
+              <Description>"Z"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>378</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>7037</ID>
+          <Description>"Scaling"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>7038</ID>
+              <Description>"X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>390</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7039</ID>
+              <Description>"Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>394</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7040</ID>
+              <Description>"Z"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>398</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>7044</ID>
+          <Description>"Rotation"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>7045</ID>
+              <Description>"Pitch"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>2758</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7046</ID>
+              <Description>"Yaw"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>275C</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7047</ID>
+              <Description>"Roll"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>2760</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
       <ID>8</ID>
       <Description>"Party"</Description>
       <Options moHideChildren="1"/>
@@ -122,57 +257,6 @@
               <Address>ed8_4_PC.exe+D1A070</Address>
               <Offsets>
                 <Offset>8</Offset>
-              </Offsets>
-            </CheatEntry>
-          </CheatEntries>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>7036</ID>
-      <Description>"Player"</Description>
-      <Options moHideChildren="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>7035</ID>
-          <Description>"Coordinates"</Description>
-          <Options moHideChildren="1"/>
-          <LastState Value="" RealAddress="00000000"/>
-          <GroupHeader>1</GroupHeader>
-          <CheatEntries>
-            <CheatEntry>
-              <ID>7034</ID>
-              <Description>"X"</Description>
-              <ShowAsSigned>0</ShowAsSigned>
-              <VariableType>Float</VariableType>
-              <Address>ed8_4_PC.exe+D28D78</Address>
-              <Offsets>
-                <Offset>370</Offset>
-                <Offset>17F00</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>7033</ID>
-              <Description>"Y"</Description>
-              <ShowAsSigned>0</ShowAsSigned>
-              <VariableType>Float</VariableType>
-              <Address>ed8_4_PC.exe+D28D78</Address>
-              <Offsets>
-                <Offset>374</Offset>
-                <Offset>17F00</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>7032</ID>
-              <Description>"Z"</Description>
-              <ShowAsSigned>0</ShowAsSigned>
-              <VariableType>Float</VariableType>
-              <Address>ed8_4_PC.exe+D28D78</Address>
-              <Offsets>
-                <Offset>378</Offset>
-                <Offset>17F00</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
