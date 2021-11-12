@@ -128,6 +128,57 @@
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
+    <CheatEntry>
+      <ID>7036</ID>
+      <Description>"Player"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>7035</ID>
+          <Description>"Coordinates"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>7034</ID>
+              <Description>"X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>370</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7033</ID>
+              <Description>"Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>374</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7032</ID>
+              <Description>"Z"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>378</Offset>
+                <Offset>17F00</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
