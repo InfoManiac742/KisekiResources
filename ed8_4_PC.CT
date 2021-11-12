@@ -40,6 +40,77 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
+      <ID>7057</ID>
+      <Description>"Camera"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>7053</ID>
+          <Description>"Coordinates"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>7055</ID>
+              <Description>"X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>95C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7054</ID>
+              <Description>"Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>960</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7056</ID>
+              <Description>"Z"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>ed8_4_PC.exe+D28D78</Address>
+              <Offsets>
+                <Offset>964</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7058</ID>
+      <Description>"Camera Y-Hack"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+aobscanmodule(INJECT_1EC9E7,ed8_4_PC.exe,89 81 50 09 00 00 8B)
+INJECT_1EC9E7:
+  nop 6
+registersymbol(INJECT_1EC9E7)
+
+"ed8_4_PC.exe"+1EEEBF:
+  nop 6
+
+[DISABLE]
+INJECT_1EC9E7:
+  db 89 81 50 09 00 00
+unregistersymbol(INJECT_1EC9E7)
+
+"ed8_4_PC.exe"+1EEEBF:
+  db 89 83 50 09 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
       <ID>7036</ID>
       <Description>"Player"</Description>
       <Options moHideChildren="1"/>
