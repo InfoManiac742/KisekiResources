@@ -255,7 +255,9 @@ unregistersymbol(INJECT_1EC9E7)
         <CheatEntry>
           <ID>5</ID>
           <Description>"Leader"</Description>
-          <DropDownList ReadOnly="1" DisplayValueAsItem="1">26:Estelle
+          <DropDownList ReadOnly="1" DisplayValueAsItem="1">10:Juna
+12:Altina
+26:Estelle
 27:Joshua
 28:Renne
 29:Lloyd
