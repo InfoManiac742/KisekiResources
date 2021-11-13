@@ -13,7 +13,7 @@
           <Description>"Speaker 1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>String</VariableType>
-          <Length>21</Length>
+          <Length>29</Length>
           <Unicode>0</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
@@ -27,7 +27,7 @@
           <Description>"Speaker 2"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>String</VariableType>
-          <Length>1</Length>
+          <Length>6</Length>
           <Unicode>0</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
@@ -255,9 +255,13 @@ unregistersymbol(INJECT_1EC9E7)
         <CheatEntry>
           <ID>5</ID>
           <Description>"Leader"</Description>
-          <DropDownList ReadOnly="1" DisplayValueAsItem="1">10:Juna
+          <DropDownList ReadOnly="1" DisplayValueAsItem="1">2:Elliot
+7:Fie
+10:Juna
 11:Kurt
 12:Altina
+14:Ash
+15:Sara
 26:Estelle
 27:Joshua
 28:Renne
@@ -332,6 +336,28 @@ unregistersymbol(INJECT_1EC9E7)
               <Address>ed8_4_PC.exe+D1A070</Address>
               <Offsets>
                 <Offset>8</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7059</ID>
+              <Description>"Char 6"</Description>
+              <DropDownListLink>leader</DropDownListLink>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>ed8_4_PC.exe+D1A070</Address>
+              <Offsets>
+                <Offset>A</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7060</ID>
+              <Description>"Char 7"</Description>
+              <DropDownListLink>leader</DropDownListLink>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>ed8_4_PC.exe+D1A070</Address>
+              <Offsets>
+                <Offset>C</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
