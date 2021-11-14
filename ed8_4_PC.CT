@@ -37,6 +37,39 @@
             <Offset>8</Offset>
           </Offsets>
         </CheatEntry>
+        <CheatEntry>
+          <ID>7062</ID>
+          <Description>"Speaker 3"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>3</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>ed8_4_PC.exe+155B8A8</Address>
+          <Offsets>
+            <Offset>7EC</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>7063</ID>
+          <Description>"Speaker 4"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>4</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>ed8_4_PC.exe+155B8A8</Address>
+          <Offsets>
+            <Offset>7EC</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
@@ -85,14 +118,12 @@
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>7058</ID>
-      <Description>"Camera Y-Hack"</Description>
-      <LastState/>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>[ENABLE]
+        <CheatEntry>
+          <ID>7058</ID>
+          <Description>"Camera Y-Hack"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
 aobscanmodule(INJECT_1EC9E7,ed8_4_PC.exe,89 81 50 09 00 00 8B)
 INJECT_1EC9E7:
   nop 6
@@ -109,6 +140,8 @@ unregistersymbol(INJECT_1EC9E7)
 "ed8_4_PC.exe"+1EEEBF:
   db 89 83 50 09 00 00
 </AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>7036</ID>
@@ -242,6 +275,24 @@ unregistersymbol(INJECT_1EC9E7)
               </Offsets>
             </CheatEntry>
           </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>7061</ID>
+          <Description>"Y-Collision Hack"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+aobscanmodule(INJECT_22E8AE,ed8_4_PC.exe,F3 0F 11 81 74 03 00 00 C3)
+INJECT_22E8AE:
+  nop 8
+registersymbol(INJECT_22E8AE)
+
+[DISABLE]
+INJECT_22E8AE:
+  db F3 0F 11 81 74 03 00 00
+unregistersymbol(INJECT_22E8AE)
+
+</AssemblerScript>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
