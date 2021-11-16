@@ -495,6 +495,17 @@ unregistersymbol(INJECT_22E8AE)
                 <Offset>1A</Offset>
               </Offsets>
             </CheatEntry>
+            <CheatEntry>
+              <ID>7074</ID>
+              <Description>"Char 15"</Description>
+              <DropDownListLink>leader</DropDownListLink>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>ed8_4_PC.exe+D1A070</Address>
+              <Offsets>
+                <Offset>1C</Offset>
+              </Offsets>
+            </CheatEntry>
           </CheatEntries>
         </CheatEntry>
       </CheatEntries>
