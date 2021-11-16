@@ -306,7 +306,8 @@ unregistersymbol(INJECT_22E8AE)
         <CheatEntry>
           <ID>5</ID>
           <Description>"Leader"</Description>
-          <DropDownList ReadOnly="1" DisplayValueAsItem="1">1:Alisa
+          <DropDownList ReadOnly="1" DisplayValueAsItem="1">0:Rean
+1:Alisa
 2:Elliot
 3:Laura
 4:Machias
@@ -326,6 +327,7 @@ unregistersymbol(INJECT_22E8AE)
 29:Lloyd
 30:Elie
 31:Randy
+40:Celine
 </DropDownList>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
