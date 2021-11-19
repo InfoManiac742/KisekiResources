@@ -323,6 +323,7 @@ unregistersymbol(INJECT_22E8AE)
 15:Sara
 17:Agate
 18:Angelica
+20:Tita
 23:Crow
 26:Estelle
 27:Joshua
@@ -550,6 +551,28 @@ unregistersymbol(INJECT_22E8AE)
               <Address>ed8_4_PC.exe+D1A070</Address>
               <Offsets>
                 <Offset>22</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7080</ID>
+              <Description>"Char 19"</Description>
+              <DropDownListLink>leader</DropDownListLink>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>ed8_4_PC.exe+D1A070</Address>
+              <Offsets>
+                <Offset>24</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7081</ID>
+              <Description>"Char 20"</Description>
+              <DropDownListLink>leader</DropDownListLink>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>ed8_4_PC.exe+D1A070</Address>
+              <Offsets>
+                <Offset>26</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
