@@ -347,7 +347,7 @@ unregistersymbol(INJECT_22E8AE)
           <Description>"Party Size"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
-          <Address>140D1A068</Address>
+          <Address>ed8_4_PC.exe+D1A068</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>9</ID>
