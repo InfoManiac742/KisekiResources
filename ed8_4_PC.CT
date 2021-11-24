@@ -13,7 +13,7 @@
           <Description>"Speaker 1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>String</VariableType>
-          <Length>31</Length>
+          <Length>40</Length>
           <Unicode>0</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
