@@ -306,7 +306,7 @@ unregistersymbol(INJECT_22E8AE)
         <CheatEntry>
           <ID>5</ID>
           <Description>"Leader"</Description>
-          <DropDownList ReadOnly="1" DisplayValueAsItem="1">0:Rean
+          <DropDownList DisplayValueAsItem="1">0:Rean
 1:Alisa
 2:Elliot
 3:Laura
@@ -315,6 +315,7 @@ unregistersymbol(INJECT_22E8AE)
 6:Jusis
 7:Fie
 8:Gaius
+9:Millium
 10:Juna
 11:Kurt
 12:Altina
@@ -324,6 +325,7 @@ unregistersymbol(INJECT_22E8AE)
 16:Aurelia
 17:Agate
 18:Angelica
+19:Olivier
 20:Tita
 21:Tio
 22:Sharon
@@ -345,6 +347,21 @@ unregistersymbol(INJECT_22E8AE)
 38:Xeno
 39:Leonidas
 40:Celine
+41:KeA
+42:Jona
+43:Sully
+44:Towa
+45:Elise
+46:Alfin
+47:Josette
+48:Patrick
+49:Scherazard
+50:Jessica
+51:Wayne
+56:Test: Trails 3 Rean
+57:Test: Rean / Lloyd
+58:Test: OZ Crimson
+59:Test: Aurelia as General
 </DropDownList>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
