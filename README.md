@@ -1,6 +1,6 @@
 # KisekiResources
 
-This is a collection of resources relating to Nihon Falcom's RPG series known in English <i>Trails</i> and in Japanese as <i>Kiseki</i>.
+This is a collection of resources relating to Nihon Falcom's RPG series known in English as <i>Trails</i> and in Japanese as <i>Kiseki</i>.
 
     Copyright (C) 2021-2022 InfoManiac
 
