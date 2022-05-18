@@ -2,7 +2,7 @@
 
 This is a collection of resources relating to Nihon Falcom's RPG series known in English <i>Trails</i> and in Japanese as <i>Kiseki</i>.
 
-    Copyright (C) 2021 InfoManiac
+    Copyright (C) 2021-2022 InfoManiac
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
